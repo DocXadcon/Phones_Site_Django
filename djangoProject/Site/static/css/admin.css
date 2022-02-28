@@ -1,0 +1,43 @@
+#header, .module caption {
+    background: rgb(8, 8, 8);
+    color: white;
+}
+#branding h1 a:visited {
+    color: #ffffff;
+}
+
+.module table th {
+    background: #322727;
+}
+a:link, a:visited {
+    color: white;
+}
+.content {
+    background: rgb(255, 255, 255);
+}
+
+td, th {
+    color: white;
+}
+
+tr:nth-child(even), tr:nth-child(even) .errorlist, tr:nth-child(odd) + .row-form-errors, tr:nth-child(odd) + .row-form-errors .errorlist {
+    background: #322727;
+}
+
+tr:nth-child(odd), .row-form-errors {
+    background: #322727;
+}
+
+#content-related {
+    background: rgb(0, 0, 0);
+}
+
+#content-related h3{
+    color: white;
+}
+
+#content-related .module h2{
+    background: rgba(0, 0, 0, 0.69);
+    color: white;
+}
+

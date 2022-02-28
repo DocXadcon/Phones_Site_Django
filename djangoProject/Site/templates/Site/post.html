@@ -1,0 +1,12 @@
+{% extends 'Site/base.html' %}
+
+{% block content %}
+    <h1>{{ post.title }}</h1>
+
+    {% if post.photo %}
+        <p><img class="img-article-left" src="{{ post.photo.url }}"></p>
+        <p class="link-read-post"><a href="{{ p.get_absolute_url }}">Добавить в корзину</a></p>
+    {% endif %}
+
+    {{ post.caption|linebreaks }}
+{% endblock %}
